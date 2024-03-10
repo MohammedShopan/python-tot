@@ -29,3 +29,15 @@ future =  int(age)  + 6  #لتحويل  العمر
 print ( f"  furure age {future} " )
 
 ```
+اكواد مهمة 
+
+```python
+age = int("45")  # لتحويل النص الي رقم 
+
+print(type(age))  # لمعرفة نوع المتغير
+
+age = str(24)  # لتحويل الرقم الي نص
+
+print(type(age))  # لمعرفة نوع المتغير
+
+```
