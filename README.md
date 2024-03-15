@@ -125,3 +125,115 @@ print( f" computer is   : {num1}   ---  user is : {num2} " )
 
 
 ```
+
+and or 
+
+```python
+
+fan =  3     # مروحة
+condition = 0   #  التكييف 
+lamp = 2      # اضائة اللمبات
+
+# if fan > 3 :
+#     print(" area true ")  # الحجرة جيدة التهوية
+# else : 
+#     print ( " area false " ) # المكان سئ التهوية
+
+
+if ( fan >= 3 or condition >= 1 ) and lamp >= 3  :
+    print(" area true ")  # الحجرة جيدة التهوية
+else : 
+    print ( " area false " ) # المكان سئ التهوية
+
+
+```
+
+```python
+
+c = 8 / 3 
+
+print(c)
+
+x = 8 % 3    # mod   باقي القسمة 
+
+print(x)
+
+
+#الرقم الزوجي والفردي
+
+num = 15
+
+if num % 2 == 1 :      ##  الشرط في حالة باقي القسمة علي 2 بيساوي 1 اي الرقم فردي
+    print ("number is odd")     # فردي
+else :
+    print ("number is even ")   # زوجي
+ 
+
+total1 =   2 +  3 +  4  * 4 
+total2 = ( 2 +  3 +  4 ) * 4 
+
+print(total1)
+print(total2)
+
+# 2 ** 3   # 2 مضروبة في نفهسا 3 مرات 
+
+# 1    (  )
+# 2    **  *   /   %   
+# 3    +   -
+
+
+name = "nourhan"
+
+for x in range(5) :
+    print(name)
+
+
+# للتكرار
+for x in range(5) :
+
+    print(f" {x+1} {name} ")
+
+
+```
+
+list مصفوفات 
+```python
+
+
+fruits = [ "apple" , "banana" , "orange" , "Qiwi" , "mango"]
+
+fruits[0] = "Sweet" 
+
+print(fruits[0])
+
+print(fruits)
+
+
+#   في لغة البيثون يبدأ العد من الصفر
+# وليس من الواحد
+
+print(type(fruits))
+
+print(type(fruits[0]))
+
+print(   type(  fruits[3]   )   )  # index
+
+
+# print( len(fruits)  )
+
+for x in fruits :
+    print(x)
+
+
+total = len(fruits)
+
+# print(total)
+
+for x in range(total):
+    print(  fruits[x] )
+
+
+
+```
+
+
