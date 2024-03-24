@@ -236,4 +236,90 @@ for x in range(total):
 
 ```
 
+# function.py
 
+```python
+# print("hello")
+
+# import random
+# print(random.random())
+
+
+def greeting(): # def لتعريف اي دالة 
+    print("hello form code")
+
+def days_of_year():
+    print("365")
+
+def hello(name):
+    print("hello form hello function " + name)
+
+
+winner = "khaled" # الفائز
+
+hello(winner)
+
+
+# greeting()
+# days_of_year()
+# greeting()
+```
+# fun2.py
+
+```python
+
+def score(name , myscore):
+    print("your name is " + name + " score is " + str(myscore) )
+    if myscore > 50 :
+        print(name + " pass the test")
+    else:
+        print(name + "you fail the test")
+    
+
+name = "nourhan"
+arbic = 95
+
+score(name,arbic)
+    
+# score("nourhan" , 95 )
+```
+# fun 3 .py
+
+```python
+
+# def hallo (name ,age):
+#     print("hallo "+name+str (age))
+#     print(str (age))
+# hallo("norhan ",25)
+
+# for x in range(5):
+#     print(x)
+
+i = 1 # العداد
+while ( i <= 20  ):       # تكرار حتي while
+        print(i)
+        i = i + 1
+
+```
+# str.py
+```python
+def naming(name):
+
+    total = len (name)
+
+    for x in range(total) :
+        
+        letter = name[x]
+
+        if x == 0:
+            letter = str.capitalize(name[x])  ## لتحويل الحرف الي حرف كبير كابيتال 
+            
+        print( str(x+1) + "   " +  letter  )
+
+name = "nourhan"
+
+naming(name)
+
+
+
+```
